@@ -2,9 +2,9 @@
 
 ## Goals
 
-The main objective of this module is the introduction to Artificial Intelligence through one of its important component which is **Machine Learning** (ML) with **Neural Networks**. 
+The main objective of this module is the introduction to Artificial Intelligence through one of its important component which is **Machine Learning** (ML) with **Neural Networks** (NN). 
 
-The main classes of problems addressed by ML are exposed, with their principles, tools and limits of use, in the field of engineering. Programming, training and operating a neural network is illustrated from a practical point of view in Python language with the modules *tensorflow* and *keras*.
+The main classes of problems addressed by ML are exposed, with their principles, tools and limits of use, in the field of engineering. Programming, training and operating a neural network is illustrated from a practical point of view in Python language with the *tensorflow* and *keras* Python modules.
 
 ## Skills acquired at supervised master's level
 
@@ -16,7 +16,7 @@ The module includes:
 - two lecture sessions of 1h20,
 - 4 practical sessions of 3h each preferably carried out on the laptops of the students articulated around two sequences:
     - Discovery of Machine Learning: programming, training and evaluation of a dense neural network dedicated to the recognition of images from the MNIST data bank (handwritten digits).
-    - Application to the context of aeronautical maintenance: design, training and evaluation of a dense neural network for the detection/classification of faults in data from a test bench.
+    - Application to the context of aeronautical maintenance: design, training and evaluation of a dense neural network for the detection/classification of faults in data from a motor test bench.
     
 ### Intended learning outcomes: 
 - Know the main classes of problems addressed by Machine Learning. 
