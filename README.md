@@ -6,10 +6,6 @@ The main objective of this module is the introduction to Artificial Intelligence
 
 The main classes of problems addressed by ML are exposed, with their principles, tools and limits of use, in the field of engineering. Programming, training and operating a neural network is illustrated from a practical point of view in Python language with the *tensorflow* and *keras* Python modules.
 
-## Skills acquired at supervised master's level
-
-- Have a global systemic approach
-
 ## Contents
 
 The module includes:
