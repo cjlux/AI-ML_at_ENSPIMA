@@ -1,5 +1,5 @@
-# version 2.1 du 21 mai 2022
-
+# version 2.2 du 23 septembre 2022
+import os
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -35,25 +35,26 @@ def plot_loss_accuracy(history):
     ax2.grid()
     plt.show()
 
-def plot_images(image_array:np.ndarray, R:int, C:int, r:int=0, figsize:tuple=None, reverse:bool=False):
+def plot_images(image_array:np.ndarray, R:int, C:int, r:int=0, 
+                figsize:tuple=None, reverse:bool=False):
     '''
     Plot the images from image_array on a R x C grid, starting at image rank r.
     Arguments:
        image_array: an array of images
        R:int: the number of rows
-       C:int: th enumber of columns
+       C:int: the number of columns
        r:int: the starting rank in the array image_array (default: 0)
-       figsize:tuple: the sise of the display (default: (R,C))
+       figsize:tuple: the sise of the display (default: (C//2+1, R//2+1))
        reverse:bool: wether to reverse video the image or not (default: False)
     '''
-    if figsize is None: figsize=(C, R)
+    if figsize is None: figsize=(C//2+1, R//2+1)
     plt.figure(figsize=figsize)
     for i in range(R*C):
         plt.subplot(R, C, i+1)
         im = image_array[r+i]
         if reverse: im = 255 - im
         plt.imshow(im, cmap='gray')
-        plt.xticks([]); plt.yticks([])
+        plt.axis('off');
 
 
 def show_cm(true, results, classes):
@@ -69,3 +70,14 @@ def show_cm(true, results, classes):
     plt.ylabel('true label')
     plt.show()
     
+def scan_dir(path):
+    tree = ''
+    data = [item for item in os.walk(path)]
+    for item in data:
+        if item[2]:
+            for file in item[2]:
+                tree += f'{item[0]}/{file}\n'
+        else:
+            tree += f'{item[0]}/\n'
+    return tree
+        
