@@ -18,10 +18,12 @@ The module includes:
 ### Intended learning outcomes: 
 - Know the main classes of problems addressed by Machine Learning. 
 - Know how to explain the behaviour of an artificial neuron and the overall architecture of a neural network.
-- Know how to build a dense or convolutional neural network with the Python tensorflow & keras modules. 
-- Know how to download, preprocess and use a set of labeled data in order to train a neural network.
-- Know how to train a neural network and use precision and loss curves to limit the overfit.
-- Know how to operate a trained network (by oneself or by others) using a new dataset.
+
+With this course you will learn how to :
+- build a dense or convolutional neural network with the Python tensorflow & keras modules. 
+- download, preprocess and use a set of labeled data in order to train a neural network.
+- train a neural network and use precision and loss curves to limit the overfit.
+- operate a trained network (by oneself or by others) using a new dataset.
 
 ## Pedagogical method of acquisition
 
