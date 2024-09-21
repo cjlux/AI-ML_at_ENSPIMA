@@ -20,9 +20,9 @@ The module includes:
 - Know how to explain the behaviour of an artificial neuron and the overall architecture of a neural network.
 
 With this course you will learn how to :
-- build a dense or convolutional neural network with the Python tensorflow & keras modules. 
-- download, preprocess and use a set of labeled data in order to train a neural network.
-- train a neural network and use precision and loss curves to limit the overfit.
+- build a dense or convolutional neural network with the Python tensorflow & keras modules
+- download, preprocess and use a set of labeled data in order to train a neural network
+- train a neural network and use precision and loss curves to limit the overfit
 - operate a trained network (by oneself or by others) using a new dataset.
 
 ## Pedagogical method of acquisition
