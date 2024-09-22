@@ -1,5 +1,5 @@
 # AI-Machine_Learning_at_ENSPIMA  
-(v1.4 - 25 September 2023)
+(September 2024)
 
 ## Goals
 
