@@ -1,0 +1,23 @@
+name: pyml-pm
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - tensorflow==2.9.*             # best reproductibility
+  - pandas
+  - matplotlib
+  - opencv
+  - imageio
+  #- jupyter
+  #- jupyter_server_fileid
+  #- jupyter_server_ydoc
+  - notebook
+  - nbclassic
+  - scikit-learn
+  - seaborn
+  - pydot
+  - pydotplus
+  - pip
+  - pip:
+    - wget
+    
