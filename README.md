@@ -37,6 +37,6 @@ Level of mathematics: bachelor.
 
 ## Evaluation
 
-- an MCQ assessed individually (coef. 0.4)
-- a report of practical work in pairs (coef. 0.6).
+- an MCQ assessed individually (coef. 1/4)
+- a report of practical work in pairs (coef. 3/4).
 
