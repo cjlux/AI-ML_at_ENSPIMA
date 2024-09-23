@@ -1,4 +1,4 @@
-name: pyml-pm
+name: pyml
 channels:
   - defaults
 dependencies:
@@ -8,9 +8,7 @@ dependencies:
   - matplotlib
   - opencv
   - imageio
-  #- jupyter
-  #- jupyter_server_fileid
-  #- jupyter_server_ydoc
+  - jupyter
   - notebook
   - nbclassic
   - scikit-learn
